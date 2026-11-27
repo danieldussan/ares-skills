@@ -1,6 +1,6 @@
 ---
 name: ares-estado
-description: Usa esta skill cuando el usuario pregunte cómo va su operación en el bot de WhatsApp en este momento: conversaciones por revisar o sin responder, pagos pendientes, ventas de hoy o si sus bots están conectados y con buena calidad. Es solo lectura, a través del MCP.
+description: Usa esta skill cuando el usuario pregunte cómo va su operación en el bot de WhatsApp en este momento — conversaciones por revisar o sin responder, pagos pendientes, ventas de hoy o si sus bots están conectados y con buena calidad. Es solo lectura, a través del MCP.
 ---
 
 # Estado de la operación por MCP
