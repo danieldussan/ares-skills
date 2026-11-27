@@ -1,0 +1,25 @@
+# Ares Skills
+
+> Skills de agente para la plataforma Ares (bots de WhatsApp) por MCP. Formato Agent Skills.
+
+## Instalación
+
+- Instalador universal: `npx skills add danieldussan/ares-skills -g --skill '*' -y`
+- Listar sin instalar: `npx skills add danieldussan/ares-skills --list`
+- Actualizar: `npx skills update -g`
+- Claude Code: `/plugin marketplace add danieldussan/ares-skills` y `/plugin install ares-skills@ares-skills`
+
+## Estructura
+
+- `skills/`: 9 carpetas con `SKILL.md` (ares-flujos, ares-nodos, ares-nodos-ia,
+  ares-bots, ares-estado, ares-reportes, ares-revision-ia, ares-tarea-externa,
+  ares-atencion). Generado desde `whatsapp-bot`; no editar aquí.
+- `VERSION`: versión publicada (semver).
+- `README.md`: guía de instalación y tabla de skills.
+- `AGENTS.md`: reglas para agentes que lean este repo.
+
+## Notas
+
+- Requieren el MCP de Ares configurado en el agente; las skills nombran tools reales.
+- Nunca incluir tokens ni credenciales en las skills.
+- Tuteo neutral en todo el contenido en español; sin voseo.

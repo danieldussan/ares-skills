@@ -1,0 +1,17 @@
+{
+  "name": "ares-skills",
+  "owner": {
+    "name": "Daniel Dussan",
+    "url": "https://github.com/danieldussan"
+  },
+  "metadata": {
+    "description": "Skills oficiales de Ares para agentes de IA"
+  },
+  "plugins": [
+    {
+      "name": "ares-skills",
+      "source": "./",
+      "description": "9 skills para flujos, nodos, bots, estado, reportes y atención por MCP"
+    }
+  ]
+}
