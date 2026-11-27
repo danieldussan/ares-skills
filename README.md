@@ -23,7 +23,7 @@ npx skills add danieldussan/ares-skills -g --skill '*' -y
 npx skills add danieldussan/ares-skills -g -a claude-code -a opencode -a codex -a cursor
 
 # Fijar una versión (recomendado en equipos)
-npx skills add danieldussan/ares-skills@v1.0.0 -g --skill '*' -y
+npx skills add danieldussan/ares-skills@v1.0.1 -g --skill '*' -y
 ```
 
 Actualizar:
